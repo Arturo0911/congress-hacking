@@ -166,3 +166,9 @@ exit
 
 
 
+
+to get Adminsitrator
+
+Get-ADComputer DC01 -property 'ms-mcs-admpwd'
+
+
