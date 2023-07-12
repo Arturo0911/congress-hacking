@@ -1,0 +1,5 @@
+# Nmap 7.94 scan initiated Tue Jul 11 22:24:30 2023 as: nmap -sS --min-rate=5000 -vvv -p- --open -n -Pn -oG enumeration/AllPorts 10.10.11.152
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.11.152 ()	Status: Up
+Host: 10.10.11.152 ()	Ports: 53/open/tcp//domain///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 389/open/tcp//ldap///, 445/open/tcp//microsoft-ds///, 464/open/tcp//kpasswd5///, 593/open/tcp//http-rpc-epmap///, 636/open/tcp//ldapssl///, 3268/open/tcp//globalcatLDAP///, 3269/open/tcp//globalcatLDAPssl///, 5986/open/tcp//wsmans///, 9389/open/tcp//adws///, 49667/open/tcp/////, 49673/open/tcp/////, 49674/open/tcp/////, 49696/open/tcp/////, 58940/open/tcp/////	Ignored State: filtered (65517)
+# Nmap done at Tue Jul 11 22:25:10 2023 -- 1 IP address (1 host up) scanned in 40.18 seconds
